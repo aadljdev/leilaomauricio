@@ -117,14 +117,14 @@ export default function Hero() {
         transition={{ delay: 1.5, duration: 0.8 }}
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
       >
-        <motion.div
+        {/* <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
           className="flex flex-col items-center space-y-2 text-white"
         >
           <span className="text-sm font-medium">Role para baixo</span>
           <ArrowDown className="w-6 h-6" />
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </section>
   )

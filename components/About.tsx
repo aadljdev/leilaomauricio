@@ -31,8 +31,7 @@ export default function About() {
     'Mais de 30 anos de experiência em execuções fiscais',
     'Especialista em imóveis da PGFN (Comprei)',
     'Transparência total no processo de compra',
-    'Acompanhamento jurídico completo',
-    'Preços justis no mercado de imóveis'
+    'Acompanhamento jurídico completo'
   ]
 
   return (

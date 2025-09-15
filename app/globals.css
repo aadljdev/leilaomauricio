@@ -8,6 +8,18 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Ajuste para mobile - evita sobreposição do cabeçalho */
+@media (max-width: 768px) {
+  body {
+    padding-top: 0;
+  }
+  
+  /* Garante que o conteúdo não fique atrás do cabeçalho */
+  section {
+    scroll-margin-top: 80px;
+  }
+}
+
 body {
   font-family: 'Inter', system-ui, sans-serif;
 }

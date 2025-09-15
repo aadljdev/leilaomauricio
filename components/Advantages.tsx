@@ -44,7 +44,7 @@ export default function Advantages() {
   ]
 
   return (
-    <section id="vantagens" className="py-20 bg-white">
+    <section id="vantagens" className="py-20 bg-white pt-24 md:pt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 50 }}

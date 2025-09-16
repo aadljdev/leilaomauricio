@@ -8,15 +8,15 @@ export default function Contact() {
     {
       icon: Phone,
       title: 'Telefone',
-      value: '(11) 99999-9999',
-      link: 'tel:+5511999999999',
+      value: '(19) 99601-8383',
+      link: 'tel:+5519996018383',
       description: 'Atendimento de segunda a sexta, 8h às 18h'
     },
     {
       icon: Mail,
       title: 'E-mail',
-      value: 'contato@mauricio.com',
-      link: 'mailto:contato@mauricio.com',
+      value: 'mauricioag.oliveira@creci.org.br',
+      link: 'mailto:mauricioag.oliveira@creci.org.br',
       description: 'Respondemos em até 24 horas'
     },
     {

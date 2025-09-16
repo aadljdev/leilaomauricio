@@ -55,7 +55,7 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed"
           >
-            Advogado, contador e corretor especializado em execuções fiscais. 
+            Advogado, economista e consultor imobiliário credenciado e   especializado em execuções fiscais. 
             Encontre o imóvel ideal com total transparência e segurança jurídica.
           </motion.p>
 
@@ -95,7 +95,7 @@ export default function Hero() {
             className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto pt-16"
           >
             <div className="text-center">
-              <div className="text-4xl font-bold text-gold-400 mb-2">25+</div>
+              <div className="text-4xl font-bold text-gold-400 mb-2">30+</div>
               <div className="text-gray-200">Anos de Experiência</div>
             </div>
             {/* <div className="text-center">

@@ -76,7 +76,7 @@ export default function Header() {
           {/* Contatos Desktop */}
           <div className="hidden lg:flex items-center space-x-4">
             <motion.a
-              href="tel:+5511999999999"
+              href="tel:+5519996018383"
               className={`flex items-center space-x-2 transition-colors ${
                 isScrolled 
                   ? 'text-gray-700 hover:text-primary-600' 
@@ -85,10 +85,10 @@ export default function Header() {
               whileHover={{ scale: 1.05 }}
             >
               <Phone className="w-4 h-4" />
-              <span className="text-sm font-medium">(11) 99999-9999</span>
+              <span className="text-sm font-medium">(19) 99601-8383</span>
             </motion.a>
             <motion.a
-              href="mailto:contato@mauricio.com"
+              href="mailto:mauricioag.oliveira@creci.org.br"
               className={`flex items-center space-x-2 transition-colors ${
                 isScrolled 
                   ? 'text-gray-700 hover:text-primary-600' 
@@ -97,7 +97,7 @@ export default function Header() {
               whileHover={{ scale: 1.05 }}
             >
               <Mail className="w-4 h-4" />
-              <span className="text-sm font-medium">contato@mauricio.com</span>
+              <span className="text-sm font-medium">mauricioag.oliveira@creci.org.br</span>
             </motion.a>
           </div>
 
@@ -144,7 +144,7 @@ export default function Header() {
             ))}
             <div className="pt-4 space-y-2">
               <a
-                href="tel:+5511999999999"
+                href="tel:+5519996018383"
                 className={`flex items-center space-x-2 transition-colors ${
                   isScrolled 
                     ? 'text-gray-700 hover:text-primary-600' 
@@ -152,10 +152,10 @@ export default function Header() {
                 }`}
               >
                 <Phone className="w-4 h-4" />
-                <span className="text-sm font-medium">(11) 99999-9999</span>
+                <span className="text-sm font-medium">(19) 99601-8383</span>
               </a>
               <a
-                href="mailto:contato@mauricio.com"
+                href="mailto:mauricioag.oliveira@creci.org.br"
                 className={`flex items-center space-x-2 transition-colors ${
                   isScrolled 
                     ? 'text-gray-700 hover:text-primary-600' 
@@ -163,7 +163,7 @@ export default function Header() {
                 }`}
               >
                 <Mail className="w-4 h-4" />
-                <span className="text-sm font-medium">contato@mauricio.com</span>
+                <span className="text-sm font-medium">mauricioag.oliveira@creci.org.br</span>
               </a>
             </div>
           </div>

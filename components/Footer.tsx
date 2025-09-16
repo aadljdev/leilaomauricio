@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Logo e Descrição */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -53,22 +53,22 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-6">Contato</h4>
             <div className="space-y-4">
               <a
-                href="tel:+5511999999999"
+                href="tel:+5519996018383"
                 className="flex items-center space-x-3 text-gray-400 hover:text-white transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                <span>(11) 99999-9999</span>
+                <span>(19) 99601-8383</span>
               </a>
               <a
-                href="mailto:contato@mauricio.com"
+                href="mailto:mauricioag.oliveira@creci.org.br"
                 className="flex items-center space-x-3 text-gray-400 hover:text-white transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                <span>contato@mauricio.com</span>
+                <span>mauricioag.oliveira@creci.org.br</span>
               </a>
               <div className="flex items-center space-x-3 text-gray-400">
                 <MapPin className="w-5 h-5" />
-                <span>São Paulo - SP</span>
+                <span>Rio Claro – SP Atendimento em todo o Estado de São Paulo</span>
               </div>
             </div>
           </motion.div>
@@ -96,6 +96,22 @@ export default function Footer() {
               </a>
             </div>
           </motion.div>
+
+          {/* Horário de Atendimento */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.6 }}
+            viewport={{ once: true }}
+          >
+            <h4 className="text-lg font-semibold mb-6">Horário de Atendimento</h4>
+            <div className="space-y-3">
+              <div className="text-gray-400">
+                <p className="font-medium text-white mb-1">Seg – Sex: 8h às 18h</p>
+                <p className="text-sm">Sábados: 8h às 12h (apenas WhatsApp)</p>
+              </div>
+            </div>
+          </motion.div>
         </div>
 
         {/* Bottom Bar */}
@@ -108,13 +124,13 @@ export default function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © 2024 Maurício - Corretor & Leiloeiro. Todos os direitos reservados.
+              © 2025 Maurício - Consultor Imobiliário. Todos os direitos reservados.
             </p>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="/politica-privacidade" className="text-gray-400 hover:text-white transition-colors">
                 Política de Privacidade
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="/termos-uso" className="text-gray-400 hover:text-white transition-colors">
                 Termos de Uso
               </a>
             </div>

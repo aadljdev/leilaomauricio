@@ -8,17 +8,17 @@ export default function About() {
     {
       icon: GraduationCap,
       title: 'Advogado',
-      description: 'Formado em Direito com especialização em Direito do Trabalho'
+      description: 'Formado em Direito com especialização em Direito do Trabalho e Processo do Trabalho.'
     },
     {
       icon: Building,
-      title: 'Contador',
-      description: 'Registro profissional ativo com vasta experiência em execuções fiscais'
+      title: 'Economista',
+      description: 'Profissional ativo com especialização em Economia de Empresas – Área financeira, vasta experiência em execuções fiscais.'
     },
     {
       icon: Scale,
-      title: 'Corretor de Imóveis',
-      description: 'CRECI ativo, especializado em imóveis de leilão e execução fiscal'
+      title: 'Consultor imobiliário',
+      description: 'Com CRECI ativo, especialista em imóveis de Execução fiscal e leilão.'
     },
     {
       icon: Award,
@@ -44,9 +44,9 @@ export default function About() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          {/* <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Quem é o <span className="text-primary-600">Leiloeiro</span>
-          </h2>
+          </h2> */}
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Conheça a experiência e credenciais que fazem a diferença na hora de 
             escolher seu imóvel com segurança e transparência.
@@ -78,14 +78,10 @@ export default function About() {
             <div className="bg-white p-8 rounded-2xl shadow-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Maurício</h3>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Profissional multidisciplinar com mais de 25 anos de experiência em 
-                execuções fiscais e leilões públicos. Formado em Direito e Contabilidade, 
-                atua como corretor de imóveis especializado em imóveis da PGFN.
+              Profissional multidisciplinar com mais de 30 anos de experiência em execuções fiscais e leilões públicos. Formado em Direito e Economia, atua como consultor imobiliário especializado em imóveis da PGFN.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Aposentado da Justiça do Trabalho, possui ampla vivência em processos 
-                executivos, garantindo total segurança jurídica para seus clientes na 
-                compra de imóveis através da plataforma Comprei.
+              Aposentado da Poder Judiciário Federal – Justiça do Trabalho, possui ampla vivência em processos em fase de execução, garantindo total segurança jurídica para seus clientes na compra de imóveis através da plataforma - Comprei.
               </p>
             </div>
           </motion.div>

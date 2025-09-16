@@ -22,7 +22,7 @@ export default function Footer() {
               </div>
               <div>
                 <h3 className="text-xl font-bold">Maurício</h3>
-                <p className="text-gray-400 text-sm">Corretor & Leiloeiro</p>
+                <p className="text-gray-400 text-sm">Consultor Imobiliário </p>
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-md">

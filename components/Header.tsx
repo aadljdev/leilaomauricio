@@ -50,7 +50,7 @@ export default function Header() {
               }`}>Maurício</h1>
               <p className={`text-sm transition-colors ${
                 isScrolled ? 'text-gray-600' : 'text-gray-200 drop-shadow-md'
-              }`}>Corretor & Leiloeiro</p>
+              }`}>Consultor Imobiliário</p>
             </div>
           </motion.div>
 

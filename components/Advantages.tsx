@@ -14,7 +14,7 @@ export default function Advantages() {
     {
       icon: DollarSign,
       title: 'Preços Abaixo do Mercado',
-      description: 'Imóveis com valores até 70% menores que o mercado tradicional, sem intermediários inflacionando preços.',
+      description: 'Imóveis com valores até 50% menores que o mercado tradicional, sem intermediários inflacionando preços.',
       color: 'from-blue-500 to-blue-600'
     },
     {

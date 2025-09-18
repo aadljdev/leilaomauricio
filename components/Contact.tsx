@@ -22,9 +22,9 @@ export default function Contact() {
     {
       icon: MapPin,
       title: 'Localização',
-      value: 'São Paulo - SP',
+      value: 'Rio Claro - SP',
       link: '#',
-      description: 'Atendimento em toda região metropolitana'
+      description: 'Atendimento em todo Estado de São Paulo'
     },
     {
       icon: Clock,

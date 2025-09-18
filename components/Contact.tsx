@@ -10,7 +10,7 @@ export default function Contact() {
       title: 'Telefone',
       value: '(19) 99601-8383',
       link: 'tel:+5519996018383',
-      description: 'Atendimento de segunda a sexta, <br> 8h às 18h'
+      description: 'Atendimento de segunda a sexta, </br> 8h às 18h'
     },
     {
       icon: Mail,

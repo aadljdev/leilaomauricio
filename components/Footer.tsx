@@ -21,8 +21,8 @@ export default function Footer() {
                 <span className="text-white font-bold text-lg">M</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Maurício</h3>
-                <p className="text-gray-400 text-sm">Consultor Imobiliário </p>
+                <h3 className="text-xl font-bold">Maurício Ap. Gomes de Oliveira</h3>
+                <p className="text-gray-400 text-sm">Consultor Imobiliário Credenciado </p>
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-md">

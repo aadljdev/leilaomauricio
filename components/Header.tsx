@@ -47,7 +47,7 @@ export default function Header() {
               alt="Logo Maurício" 
               width={80} 
               height={72} 
-              className="object-contain rounded-sm"
+              className="object-contain rounded-md"
             />
             <div>
               <h1 className={`text-xl font-bold transition-colors ${

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Menu, X, Phone, Mail } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -41,16 +42,20 @@ export default function Header() {
             className="flex items-center space-x-4"
             whileHover={{ scale: 1.05 }}
           >
-            <div className="w-12 h-12 bg-gradient-to-br from-primary-600 to-primary-800 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">M</span>
-            </div>
+            <Image 
+              src="/images/logo.png" 
+              alt="Logo Maurício" 
+              width={80} 
+              height={72} 
+              className="object-contain rounded-sm"
+            />
             <div>
               <h1 className={`text-xl font-bold transition-colors ${
                 isScrolled ? 'text-gray-900' : 'text-white drop-shadow-lg'
-              }`}>Maurício</h1>
+              }`}>Quality Prime </h1>
               <p className={`text-sm transition-colors ${
                 isScrolled ? 'text-gray-600' : 'text-gray-200 drop-shadow-md'
-              }`}>Consultor Imobiliário</p>
+              }`}>Negócios Imobiliários</p>
             </div>
           </motion.div>
 

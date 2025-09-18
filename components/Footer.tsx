@@ -26,8 +26,8 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-md">
-              Especialista em imóveis da PGFN com mais de 15 anos de experiência. 
-              Advogado, contador e corretor, oferecendo total segurança jurídica 
+              Especialista em imóveis da PGFN. 
+              Advogado, Economista  e Consultor Imobiliário Credenciado pela PGNF, oferecendo total segurança jurídica 
               na compra de imóveis através da plataforma Comprei.
             </p>
             <div className="flex space-x-4">
@@ -124,7 +124,7 @@ export default function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 text-sm">
-              © 2025 Maurício - Consultor Imobiliário. Todos os direitos reservados.
+              © 2025 Quality Prime Negócios Imobiliários. Todos os direitos reservados.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="/politica-privacidade" className="text-gray-400 hover:text-white transition-colors">

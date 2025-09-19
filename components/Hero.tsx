@@ -54,8 +54,9 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
             className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed"
+            role="banner"
           >
-            Advogado, economista e consultor imobiliário credenciado e   especializado em execuções fiscais. 
+            Advogado, economista e consultor imobiliário credenciado e especializado em execuções fiscais. 
             Encontre o imóvel ideal com total transparência e segurança jurídica.
           </motion.p>
 
@@ -71,8 +72,9 @@ export default function Hero() {
               className="bg-gold-500 hover:bg-gold-600 text-white font-semibold px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 flex items-center space-x-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              aria-label="Ver imóveis disponíveis da PGFN"
             >
-              <Home className="w-5 h-5" />
+              <Home className="w-5 h-5" aria-hidden="true" />
               <span>Ver Imóveis Disponíveis</span>
             </motion.a>
             
@@ -81,8 +83,9 @@ export default function Hero() {
               className="border-2 border-white text-white hover:bg-white hover:text-primary-700 font-semibold px-8 py-4 rounded-lg transition-all duration-300 flex items-center space-x-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              aria-label="Conheça a experiência do Maurício"
             >
-              <Shield className="w-5 h-5" />
+              <Shield className="w-5 h-5" aria-hidden="true" />
               <span>Conheça Minha Experiência</span>
             </motion.a>
           </motion.div>

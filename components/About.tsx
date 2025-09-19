@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { GraduationCap, Scale, Building, Award, CheckCircle } from 'lucide-react'
+import Image from 'next/image'
 
 export default function About() {
   const credentials = [
@@ -35,7 +36,7 @@ export default function About() {
   ]
 
   return (
-    <section id="sobre" className="py-20 bg-gray-50 pt-24 md:pt-20">
+    <section id="sobre" className="py-20 bg-gray-50 pt-24 md:pt-20" aria-labelledby="sobre-title">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -47,6 +48,9 @@ export default function About() {
           {/* <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Quem é o <span className="text-primary-600">Leiloeiro</span>
           </h2> */}
+          <h2 id="sobre-title" className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            Sobre <span className="text-primary-600">Maurício</span>
+          </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Conheça a experiência e credenciais que fazem a diferença na hora de 
             escolher seu imóvel com segurança e transparência.
@@ -64,10 +68,13 @@ export default function About() {
           >
             <div className="relative">
               <div className="w-80 h-80 mx-auto relative">
-                <img
+                <Image
                   src="/images/mauricio.png"
                   alt="Maurício Aparecido Gomes de Oliveira - Corretor e Leiloeiro"
+                  width={320}
+                  height={320}
                   className="w-full h-full object-cover rounded-2xl shadow-2xl"
+                  priority
                 />
                 <div className="absolute -bottom-6 -right-6 bg-gold-500 text-white p-4 rounded-full shadow-lg">
                   <Award className="w-8 h-8" />
@@ -75,15 +82,15 @@ export default function About() {
               </div>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Maurício</h3>
+            <article className="bg-white p-8 rounded-2xl shadow-lg">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Maurício Aparecido Gomes de Oliveira</h3>
               <p className="text-gray-600 leading-relaxed mb-6">
               Profissional multidisciplinar com mais de 30 anos de experiência em execuções fiscais e leilões públicos. Formado em Direito e Economia, atua como consultor imobiliário especializado em imóveis da PGFN.
               </p>
               <p className="text-gray-600 leading-relaxed">
-              Aposentado da Poder Judiciário Federal – Justiça do Trabalho, possui ampla vivência em processos em fase de execução, garantindo total segurança jurídica para seus clientes na compra de imóveis através da plataforma - Comprei.
+              Aposentado da Poder Judiciário Federal – Justiça do Trabalho, possui ampla vivência em processos em fase de execução, garantindo total segurança jurídica para seus clientes na compra de imóveis através da plataforma Comprei.
               </p>
-            </div>
+            </article>
           </motion.div>
 
           {/* Credenciais e Conquistas */}
@@ -95,7 +102,7 @@ export default function About() {
             className="space-y-8"
           >
             {/* Credenciais */}
-            <div>
+            <section>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Credenciais Profissionais</h3>
               <div className="grid gap-4">
                 {credentials.map((credential, index) => (
@@ -117,12 +124,12 @@ export default function About() {
                   </motion.div>
                 ))}
               </div>
-            </div>
+            </section>
 
             {/* Conquistas */}
-            <div>
+            <section>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Por que escolher meus serviços?</h3>
-              <div className="space-y-3">
+              <ul className="space-y-3">
                 {achievements.map((achievement, index) => (
                   <motion.div
                     key={index}
@@ -136,8 +143,8 @@ export default function About() {
                     <span className="text-gray-700">{achievement}</span>
                   </motion.div>
                 ))}
-              </div>
-            </div>
+              </ul>
+            </section>
           </motion.div>
         </div>
       </div>

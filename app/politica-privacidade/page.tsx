@@ -3,16 +3,6 @@
 import { motion } from 'framer-motion'
 import { ArrowLeft, Shield, Eye, Lock, FileText } from 'lucide-react'
 import Link from 'next/link'
-import { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: 'Política de Privacidade',
-  description: 'Política de privacidade e proteção de dados do Maurício - Corretor e Leiloeiro de Imóveis PGFN. Conheça como protegemos suas informações.',
-  robots: {
-    index: true,
-    follow: true,
-  },
-}
 
 export default function PoliticaPrivacidade() {
   return (

@@ -85,7 +85,7 @@ export default function About() {
             <article className="bg-white p-8 rounded-2xl shadow-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Maurício Aparecido Gomes de Oliveira</h3>
               <p className="text-gray-600 leading-relaxed mb-6">
-              Profissional multidisciplinar com mais de 30 anos de experiência em execuções fiscais e leilões públicos. Formado em Direito e Economia, atua como consultor imobiliário especializado em imóveis da PGFN.
+              Profissional multidisciplinar com mais de 30 anos de experiência em execuções fiscais e leilões públicos, atua como consultor imobiliário especializado em imóveis da PGFN.
               </p>
               <p className="text-gray-600 leading-relaxed">
               Aposentado da Poder Judiciário Federal – Justiça do Trabalho, possui ampla vivência em processos em fase de execução, garantindo total segurança jurídica para seus clientes na compra de imóveis através da plataforma Comprei.

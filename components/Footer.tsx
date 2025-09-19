@@ -23,6 +23,7 @@ export default function Footer() {
               <div>
                 <h3 className="text-xl font-bold">Maurício Ap. Gomes de Oliveira</h3>
                 <p className="text-gray-400 text-sm">Consultor Imobiliário Credenciado </p>
+                <p className="text-gray-400 text-sm">CRECI: 40014-F</p>
               </div>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6 max-w-md">

@@ -6,23 +6,23 @@ import { ExternalLink, MapPin, Bed, Bath, Square, Car } from 'lucide-react'
 export default function Properties() {
   // Dados de exemplo dos imóveis
   const properties = [
-    {
-      id: 1,
-      title: 'Imóvel com galpão industrial',
-      price: 'R$ 6.773.697,50',
-      originalPrice: '6.773.697,50',
-      description: 'Excelente imóvel com área de 9.196,00 m2 com portaria, galpões e estacionamentos para uso em distribuição de produtos,  atacadistas e supermercados, construção de condomínios, centro de distribuição de produtos, garagem para ônibus, transportadora, visto que se encontra em entrocamento de várias rodovias. Excelente oportunidade!!!',
-      image: 'https://comprei.pgfn.gov.br/gateway/imagem/anuncio/180989',
-      location: 'Av. Saburo Akamine, Nº 1555 - De 1000 A 1198 - Lado Par - De 1000 A 1198 Lado Par, 1555 , Jardim Matheus Maniero - Rio Claro/SP - CEP: 13.504-505',
-      platform: 'PGFN - Comprei',
-      details: {
-        bedrooms: 0,
-        bathrooms: 0,
-        area:  919600,
-        parking: 0
-      },
-      compreiLink: 'https://comprei.pgfn.gov.br/anuncio/detalhe/50142'
-    },
+    // {
+    //   id: 1,
+    //   title: 'Imóvel com galpão industrial',
+    //   price: 'R$ 6.773.697,50',
+    //   originalPrice: '6.773.697,50',
+    //   description: 'Excelente imóvel com área de 9.196,00 m2 com portaria, galpões e estacionamentos para uso em distribuição de produtos,  atacadistas e supermercados, construção de condomínios, centro de distribuição de produtos, garagem para ônibus, transportadora, visto que se encontra em entrocamento de várias rodovias. Excelente oportunidade!!!',
+    //   image: 'https://comprei.pgfn.gov.br/gateway/imagem/anuncio/180989',
+    //   location: 'Av. Saburo Akamine, Nº 1555 - De 1000 A 1198 - Lado Par - De 1000 A 1198 Lado Par, 1555 , Jardim Matheus Maniero - Rio Claro/SP - CEP: 13.504-505',
+    //   platform: 'PGFN - Comprei',
+    //   details: {
+    //     bedrooms: 0,
+    //     bathrooms: 0,
+    //     area:  919600,
+    //     parking: 0
+    //   },
+    //   compreiLink: 'https://comprei.pgfn.gov.br/anuncio/detalhe/50142'
+    // },
     {
       id: 2,
       title: 'Casa 4 Quartos - Jardins',

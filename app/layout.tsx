@@ -37,14 +37,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://mauriciocorretorpgfn.com.br'),
+  metadataBase: new URL('https://qualityprimeimoveis.com.br'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'pt_BR',
-    url: 'https://mauriciocorretorpgfn.com.br',
+    url: 'https://qualityprimeimoveis.com.br',
     title: 'Maurício - Corretor e Leiloeiro de Imóveis PGFN | Especialista em Comprei',
     description: 'Especialista em imóveis da PGFN (Comprei). Advogado, economista e consultor imobiliário com 30+ anos de experiência em execuções fiscais e leilões públicos.',
     siteName: 'Maurício - Corretor PGFN',
@@ -90,8 +90,8 @@ export default function RootLayout({
     "name": "Maurício Aparecido Gomes de Oliveira",
     "jobTitle": "Corretor e Leiloeiro de Imóveis PGFN",
     "description": "Especialista em imóveis da PGFN (Comprei). Advogado, economista e consultor imobiliário com 30+ anos de experiência em execuções fiscais e leilões públicos.",
-    "url": "https://mauriciocorretorpgfn.com.br",
-    "image": "https://mauriciocorretorpgfn.com.br/images/mauricio.png",
+    "url": "https://qualityprimeimoveis.com.br",
+    "image": "https://qualityprimeimoveis.com.br/images/mauricio.png",
     "sameAs": [
       "https://www.linkedin.com/in/mauricio-corretor-pgfn",
       "https://www.instagram.com/mauriciocorretorpgfn"
